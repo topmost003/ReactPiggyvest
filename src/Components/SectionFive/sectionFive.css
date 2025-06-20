@@ -1,0 +1,44 @@
+.sect5text { text-align: center;
+
+h1 { font-size: 51px;
+line-height: 64px;
+font-weight: 700;}
+
+
+p {  font-size: 24px;
+   line-height: 33px;
+color: rgba(29, 28, 28, 0.824);}
+}
+
+
+
+.sect5 { display: flex;
+   justify-content: space-between;
+padding: 70px 50px 0px 50px;
+margin: 50px 50px 200px;
+border-radius: 25px;
+background-color:#7913E5;}
+
+.sect5img img{ width:420px;
+height: auto;}
+
+.sect5left { width: 50%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+color: white;
+
+
+h1 {font-size: 36px;
+   line-height: 50px;
+   font-weight: 700;
+padding-bottom: 50px;}
+
+
+p { font-size: 20pxpx;
+   line-height: 28px;
+   font-weight: 400;
+width: 240px;
+color: wheat;}
+
+}

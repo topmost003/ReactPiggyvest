@@ -1,0 +1,146 @@
+.herogrid {display: grid;
+grid-template-columns: repeat(2 , 1fr);
+gap: 30px;
+color: white;
+padding:10px 200px ;
+background-color: #F2F7F8;
+margin-bottom: 150px;
+}
+
+.automated { background-color: #0F60D6;
+padding: 50px 5px 20px 20px; 
+border-radius: 20px;
+width: 420px;
+height: 270px;
+position: relative;
+
+
+h2 { line-height: 42px;
+font-size: 30px;
+padding-bottom: 20px;}
+
+p { line-height: 16px;
+   font-size: 14px;
+width: 230px;}
+   
+}
+
+
+.fixed { background-color: #2295F2;
+   padding: 40px 5px 20px 20px;
+   border-radius: 20px;
+   width: 420px;
+height: 270px;
+position: relative;
+
+
+   h2 { line-height: 42px;
+      font-size: 30px;
+      padding-bottom:8px}
+      
+      p { line-height: 16px;
+         font-size: 14px;
+         width: 230px;}
+      }
+
+
+.goal { background-color: #39C277;
+   padding: 50px 5px 20px 2px;
+   border-radius: 20px;
+   position: relative;
+   width: 420px;
+   height: 270px;
+
+
+   h2 { line-height: 42px;
+      font-size: 27px;
+      padding-bottom: 20px;
+      width: 320px;
+      margin: 0 auto;
+   }
+ 
+      
+      p { line-height: 16px;
+         font-size: 14px;
+         width: 230px}
+      
+      }
+
+
+.flexnaira { background-color: #E5489B;
+   padding: 50px 5px 20px 20px;
+   border-radius: 20px;
+   position: relative;
+   width: 420px;
+   height: 270px;
+
+   h2 { line-height: 42px;
+      font-size: 30px;
+      padding-bottom: 20px}
+      
+      p { line-height: 16px;
+         font-size: 14px;
+         width: 230px}
+      
+      }
+
+
+.flexdollar { background-color: #0C1825;
+   padding: 50px 5px 20px 20px;
+   border-radius: 20px;
+   position: relative;
+   width: 420px;
+   height: 270px;
+
+   h2 { line-height: 42px;
+      font-size: 30px;
+      padding-bottom: 20px}
+      
+      p { line-height: 16px;
+         font-size: 14px;
+         width: 230px}
+      }
+   
+
+.houseMoney { background-color:#FF783C;
+   padding: 50px 5px 20px 20px;
+   border-radius: 20px;
+   position: relative;
+   width: 420px;
+   height: 270px;
+
+   h2 { line-height: 42px;
+      font-size: 30px;
+      padding-bottom: 20px}
+      
+      p { line-height: 16px;
+         font-size: 14px;
+         width: 230px;}
+      }
+
+      .herogrid img { width: 180px;
+      height: auto;}
+
+
+      .automated1 , .fixed1 ,.goal1 ,.flexnaira1 , .flexdollar1 , .houseMoney1 
+       { display: flex;
+      align-items: end; 
+      justify-content: space-between;
+      width: 100%;
+      height: 70%;
+  }
+
+  .abso { position:absolute;
+bottom: -5px;;
+left: 55%;
+
+}
+
+.arrow img { width: 30px;
+height: auto;}
+
+.arrow { display: flex;
+align-items: center;
+gap: 5px;
+padding-bottom: 20px;
+}

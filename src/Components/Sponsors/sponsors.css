@@ -1,0 +1,21 @@
+.sponsors { padding-bottom: 200px;
+   background-color: whitesmoke;
+
+
+   h1 { line-height:41px ;
+   font-weight: 700;
+font-size:33px ;
+padding-bottom: 30px;
+text-align: center;}
+   }
+
+
+.sponsorsimg img { max-width: 120px;
+height: auto;}
+
+
+.sponsorsimg { display: grid;
+grid-template-columns: repeat(6,1fr);
+justify-content: center;
+align-items: center;
+padding-left: 100px;}

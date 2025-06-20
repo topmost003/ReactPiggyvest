@@ -1,0 +1,38 @@
+.herotext { display: flex;
+ padding: 0 150px 150px; 
+background-color:  #F2F7F8;
+gap: 30px;
+align-items: center;}
+
+
+.herotext2 {
+
+p { line-height: 27px;
+   font-size: 13px;
+   max-width: 500px;
+}
+
+h3 { line-height: 24px;
+   margin-bottom: 20px;
+
+}
+
+}
+
+.herotext3 p {line-height: 24px;
+   font-size: 13px;
+   font-weight: 700
+}
+
+.herotext3 img {width: 30px;
+height: auto;}
+
+.herotext3 { display: flex;
+align-items: center;
+padding-top: 30px;
+cursor: pointer;
+text-decoration: none;
+max-width: max-content;}
+
+
+.herotext3:hover {text-decoration: underline 2px black;}

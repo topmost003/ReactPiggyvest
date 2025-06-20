@@ -1,0 +1,38 @@
+   .navleft1 ul a {font-size: 13px;}
+
+.navbar { display: flex;
+   justify-content: space-between;
+   align-items: center;
+padding: 10px 150px ;
+background-color: #F2F7F8;
+z-index: 1;
+position: fixed;
+width: 75%;
+}
+
+.navleft1 ul  { display: flex;
+   gap: 10px;}
+
+.navleft{ display: flex;
+align-items: center;
+justify-content: center;
+gap: 30px;}
+
+
+
+.navbar img { width: 9em;
+height: auto;}
+
+.navright button { padding: 12px;
+border-radius: 10px;
+border-width: 1px;
+}
+
+.navright button:last-child {background-color: #122231;
+color: white;
+margin-left: 5px;}
+
+.hamburger img { max-width:2.5em;
+   height: auto;}
+
+   .hamburger {display: none;}
