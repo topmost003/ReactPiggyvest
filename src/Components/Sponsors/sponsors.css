@@ -19,3 +19,23 @@ grid-template-columns: repeat(6,1fr);
 justify-content: center;
 align-items: center;
 padding-left: 100px;}
+
+
+@media (max-width:720px) {
+   
+    .sponsorsimg { display: grid;
+         grid-template-columns:  1fr;
+          gap: 30px;
+          justify-content: center; 
+          align-items: center;
+          padding-right: 40px;
+          margin: 0 auto;
+          }
+
+.sponsorsimg img { max-width: 170px;
+   height: auto;
+margin: 0 auto;
+padding-right: 50px;
+}
+
+}

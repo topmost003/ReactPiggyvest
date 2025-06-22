@@ -144,3 +144,60 @@ align-items: center;
 gap: 5px;
 padding-bottom: 20px;
 }
+
+
+@media (max-width:720px) {
+
+.sect4text h1 { width: 350px;
+   margin: 0 auto;
+   text-align: center;
+}
+
+.sect4text p { max-width: 350px;
+text-align: center;
+margin: 0 auto;}
+
+.herogrid { display: flex;
+flex-direction: column;
+align-items: center;
+margin: 0 auto;
+}
+
+.herogrid p {margin: 0 auto;}
+
+.automated , .fixed ,.goal ,.flexnaira , .flexdollar , .houseMoney
+{
+ width: 300px;
+ height: 350px;
+
+}
+
+.abso { 
+   bottom: -5px;;
+   left: 42%;
+   }
+
+   .sect5 { flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+padding: 20px 10px 0;
+margin: 15px;
+
+p { padding-bottom: 20px;}
+}
+   .sect5img img{ width: 300px;
+      height: 300px;}  
+
+.sect5left { 
+   width: 100%;
+
+   h1 { width:350px;
+   font-size: 23px ;}
+
+   p { width: 300px;
+   text-align: center;
+margin: 0 auto;}
+}
+.sect5left .arrow { margin: 0 auto;}
+
+}

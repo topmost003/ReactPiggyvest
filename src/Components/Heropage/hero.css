@@ -65,3 +65,23 @@ opacity: 1;
  .bounce {
    animation: bounce 2s ease-in-out infinite;
  }
+
+
+
+ 
+ @media (max-width:720px){ 
+
+.hero { margin: 0 auto;
+   padding: 100px 15px 50px;
+width: 100%; 
+gap: 50px;
+}
+.heroleft h1  { width: 300px;
+padding-top: 15px;}
+
+.heroright img { width: 22em;
+   padding-right: 30px;
+}
+
+.btn { padding-right: 30px;}
+ }

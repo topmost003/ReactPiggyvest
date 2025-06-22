@@ -30,7 +30,7 @@ function Header(){
     </main>
 
     <div class="hamburger">
-        <img src="../../../public/" alt=""/>
+        <img src="../../../public/menu.png" alt=""/>
     </div>
 
 </nav>

@@ -36,3 +36,21 @@ gap: 15px;}
 
 .btn3:hover { 
    transform: translatey(-5px );}
+
+
+   @media (max-width:720px) {
+     
+   
+       .sect7img img{ max-width: 22em;
+      height: auto;
+   }
+
+   .sect7right h1 { 
+      width: 350px;
+         font-size: 33px;
+         line-height :41px; 
+         font-weight:400 ;
+      text-align: center;}
+
+      .sect7btn {justify-content: center;}  
+   }

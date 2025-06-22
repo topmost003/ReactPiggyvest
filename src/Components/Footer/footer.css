@@ -76,3 +76,25 @@ color:rgba(61, 79, 96, 0.65);}
 .foot p:nth-child(3) {color: rgb(8, 62, 158);
    line-height:27px ;
 font-weight:400;}
+
+@media (max-width:720px) {
+ 
+   .footer {display: flex;
+flex-direction: column;
+gap: 30px;}
+
+.address { text-align: left;}
+
+.footertext { display: flex;
+text-align: left;
+padding-left: 3px;}
+
+.footertext1 { text-align: left;}
+
+
+.foot p  { text-align: left;
+   max-width: 380px;}
+
+.foot {padding: 20px;;}
+}
+

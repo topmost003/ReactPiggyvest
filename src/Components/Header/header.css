@@ -36,3 +36,15 @@ margin-left: 5px;}
    height: auto;}
 
    .hamburger {display: none;}
+
+
+
+   @media (max-width:720px){
+
+ .hamburger {display:block;}
+   .navleft1 , .navright { display: none;}
+.navbar { padding:5px 20px 0;
+width: 90%;}
+.hero { flex-wrap: wrap;}
+
+   }

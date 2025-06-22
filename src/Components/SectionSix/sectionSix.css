@@ -28,3 +28,27 @@ p {font-size: 24px;
 border-radius: 25px;
 border: 10px solid white;
 object-fit: cover;}
+
+
+@media (max-width:720px) {
+   
+
+   .sect6 video {width: 350px;
+   height: 500px;
+}
+
+   .sect6 { 
+   
+      h1 { width:300px;
+      font-size: 25px ;
+   line-height: 30px;
+margin: 0 auto;
+padding-bottom: 20px;}
+   
+      p { width: 350px;
+      text-align: center;
+   margin: 0 auto;
+padding-bottom: 30px;}
+   }
+
+}

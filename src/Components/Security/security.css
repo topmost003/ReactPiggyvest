@@ -36,3 +36,22 @@ max-width: max-content;}
 
 
 .herotext3:hover {text-decoration: underline 2px black;}
+
+
+
+
+@media (max-width:720px) {
+   
+   .herotext2 h3 { 
+   width: 200px;
+margin: 0 auto;
+margin-bottom: 20px;
+}
+
+.herotext2 p { width: 280px;}
+
+.herotext3 { justify-content: center;
+   margin: 0 auto;
+}
+
+}
